@@ -1,0 +1,33 @@
+body, a, a:link, a:visited {
+  color: #000;
+  background-color: #FFF;
+  font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+#menu, a.a, .wa-section-menu, #footer {
+  display: none;
+}
+
+a { 
+  text-decoration: none 
+}
+
+a[href^=http]:after {
+  content:" <" attr(href) "> ";
+}
+
+.wa-updated {
+  border-top: solid #000 1pt;
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
+#footer-address {
+  font-size: smaller;
+  font-family: sans-serif;
+}
+
