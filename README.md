@@ -11,7 +11,9 @@ Due to be available at:
 
 To add a status update, (assuming you have write access and have setup your `ssh` public keys) clone the code:
 
-  git clone git@github.com:webarch-coop/webarch-coop.github.io.git
+```bash
+git clone git@github.com:webarch-coop/webarch-coop.github.io.git
+```
 
 And then find this in the `index.html` page:
 
